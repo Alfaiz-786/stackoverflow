@@ -1,0 +1,99 @@
+/* ThemeSwitcher.css */
+
+/* Light Theme */
+.theme-switcher.light-theme {
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --font-family: "Arial", sans-serif;
+  --font-size: 16px;
+}
+
+.theme-switcher.light-theme .navbar {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.theme-switcher.light-theme .navbar a {
+  color: var(--text-color);
+}
+
+.theme-switcher.light-theme .content {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 80%;
+  max-width: 600px;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: 1.5;
+}
+
+/* Dark Theme */
+.theme-switcher.dark-theme {
+  --background-color: #333333;
+  --text-color: #ffffff;
+  --font-family: "Arial", sans-serif;
+  --font-size: 16px;
+}
+
+.theme-switcher.dark-theme .navbar {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.theme-switcher.dark-theme .navbar .navbar-links {
+  background-color: #333333;
+}
+.theme-switcher.dark-theme .navbar a {
+  color: var(--text-color);
+}
+
+/* .theme-switcher.dark-theme .content {
+  background-color: var(--background-color);
+  color: var(--text-color); */
+/* box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 80%;
+  max-width: 600px;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: 1.5; */
+/* } */
+
+/* Common Styles */
+/* .theme-switcher { */
+/* transition: background-color 0.3s, color 0.3s;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+/* } */
+
+.theme-switcher .navbar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.theme-switcher .navbar a {
+  text-decoration: none;
+}
+
+.theme-switcher .button {
+  background-color: #009dff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: var(--font-size);
+}

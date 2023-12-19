@@ -1,0 +1,188 @@
+/* .ask-question {
+  min-height: 100vh;
+  background-color: #f1f2f3;
+}
+
+.ask-ques-container {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.ask-ques-container h1 {
+  padding: 80px 0px 20px 0px;
+}
+
+.ask-ques-container form .ask-form-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.ask-form-container label h4 {
+  margin-bottom: 0%;
+}
+
+.ask-form-container label p {
+  margin: 0%;
+  font-size: 13px;
+  padding: 3px 0px;
+}
+
+.ask-form-container label input,
+.ask-form-container label textarea {
+  padding: 10px;
+  border: solid 1px #0000003e;
+  font-family: "Roboto", sans-serif;
+  width: calc(100% - 20px);
+  resize: vertical;
+}
+
+.Review-btn {
+  margin: 50px 0px;
+  padding: 10px;
+  background-color: #009dff;
+  border: solid 1px #009dff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Review-btn:hover {
+  background-color: #0086df;
+}
+
+
+.theme-switcher.light-theme .ask-question {
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.theme-switcher.dark-theme .ask-question {
+  background-color: #333333;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+} */
+
+/* AskQuestion.css */
+
+/* Common Styles for both Light and Dark Themes */
+.ask-question {
+  min-height: 100vh;
+}
+
+.ask-ques-container {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.ask-ques-container h1 {
+  padding: 80px 0px 20px 0px;
+}
+
+.ask-ques-container form .ask-form-container {
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.ask-form-container label h4 {
+  margin-bottom: 0%;
+}
+
+.ask-form-container label p {
+  margin: 0%;
+  font-size: 13px;
+  padding: 3px 0px;
+}
+
+.ask-form-container label input,
+.ask-form-container label textarea {
+  padding: 10px;
+  border: solid 1px #0000003e;
+  font-family: "Roboto", sans-serif;
+  width: calc(100% - 20px);
+  resize: vertical;
+}
+
+.Review-btn {
+  margin: 20px 0px;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Light Theme Styles */
+.theme-switcher.light-theme .ask-question {
+  background-color: #f1f2f3;
+}
+
+.theme-switcher.light-theme .ask-form-container {
+  background-color: white;
+}
+
+.theme-switcher.light-theme .Review-btn {
+  background-color: #009dff;
+  border: solid 1px #009dff;
+  color: white;
+}
+
+.theme-switcher.light-theme .Review-btn:hover {
+  background-color: #0086df;
+}
+
+/* Dark Theme Styles */
+/* .theme-switcher.dark-theme .ask-question {
+  background-color: #333333;
+  
+}
+
+.theme-switcher.dark-theme .ask-form-container {
+  background-color: #2c2c2c;
+  box-shadow: 0 0 5px #0000005e;
+}
+
+.theme-switcher.dark-theme .Review-btn {
+  background-color: #009dff;
+  border: solid 1px #009dff;
+  color: white;
+}
+
+.theme-switcher.dark-theme .Review-btn:hover {
+  background-color: #0086df;
+} */
+
+.theme-switcher.dark-theme .ask-question {
+  background-color: #333333;
+  color: #ffffff; /* Set the text color to a lighter color */
+}
+
+.theme-switcher.dark-theme .ask-ques-container h1 {
+  color: #ffffff; /* Set the text color to a lighter color */
+}
+
+.theme-switcher.dark-theme .ask-form-container label p {
+  color: #ffffff; /* Set the text color to a lighter color */
+}
+
+.theme-switcher.dark-theme .Review-btn {
+  background-color: #009dff;
+  border: solid 1px #009dff;
+  color: white;
+}
+
+.theme-switcher.dark-theme .Review-btn:hover {
+  background-color: #0086df;
+}
+
+@media screen and (max-width: 600px) {
+  .home-container-1 {
+    /* display: none; */
+  }
+  .ask-question {
+    width: 29rem;
+  }
+}

@@ -1,0 +1,87 @@
+/* .home-container-1{
+    min-height: 100vh;
+    max-width: 1250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.home-container-2{
+    max-width: 1100px;
+    width: calc(100% - 164px);
+    padding: 24px;
+    box-sizing: border-box;
+ } */
+
+/* Common Styles for both Light and Dark Themes */
+.home-container-1 {
+  min-height: 100vh;
+  /* width: 10.25rem; */
+  display: flex;
+  justify-content: space-between;
+  border-right: darkblue;
+}
+.main-container {
+  display: flex;
+  width: 100%;
+}
+
+.home-container-2 {
+  width: calc(100% - 10.25rem); /* Converted 164px to rem */
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.home-container-3 {
+  width: 18.75rem;
+  margin-right: 30px;
+  margin-top: 55px;
+  border: none;
+}
+/* Light Theme Styles */
+.theme-switcher.light-theme .home-container-1 {
+  background-color: #ffffff;
+  color: #3a3a3a;
+}
+
+.theme-switcher.light-theme .home-container-2 {
+  border: 0.0625rem solid #d6d9dc; /* Converted 1px to rem */
+}
+
+/* Dark Theme Styles */
+.theme-switcher.dark-theme .home-container-1 {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.theme-switcher.dark-theme .home-container-2 {
+  border: 0.0625rem solid #555555; /* Converted 1px to rem */
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+  .home-container-1 {
+    width: 29rem;
+  }
+  .main-container {
+    flex-direction: column;
+    border: none;
+    width: 21rem;
+    /* margin-top: ; */
+    padding-right: 0.8rem;
+  }
+
+  .home-container-2 {
+    width: 21rem; /* Converted 164px to rem */
+    margin: 0;
+    padding: 0;
+  }
+
+  .home-container-3 {
+    width: 21rem;
+    margin: 0;
+    padding: 0;
+  }
+}

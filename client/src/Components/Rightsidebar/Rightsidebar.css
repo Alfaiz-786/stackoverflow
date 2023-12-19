@@ -1,0 +1,238 @@
+/* .right-sidebar{
+    margin: 40px 0px 15px 24px;
+    float: right;
+    width: 300px;
+    font-size: 15px ;
+    
+}
+
+
+.Widget{
+    margin-top: 10px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.Widget h4{
+    background-color: #fbf3d5;
+    margin: 0;
+    padding: 15px;
+    border: 1px solid #f1e5bc;
+    font-size: 14px;
+}
+
+.right-sidebar-div-1{
+    background-color: #fdf7e2;
+    padding: 15px;
+    border: 1px solid #f1e5bc;
+}
+
+.right-sidebar-div-1 .right-sidebar-div-2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.right-sidebar-div-1 .right-sidebar-div-2 p{
+    padding-left: 10px;
+    margin-top: 0;
+    font-size: 13px;
+}
+
+
+.widget-tags{
+    margin-top: 40px;
+    box-shadow: 0 0 5px #ccc;
+}
+.widget-tags h3{
+    margin: 0;
+    padding: 15px;
+    background-color: #f8f9f9;
+    border: solid 1px #e3e6e8;
+}
+
+
+.widget-tags-div{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 1px #e3e6e8;
+    padding: 10px;
+}
+
+.widget-tags-div p{
+    padding:  5px;
+    background-color: #e1ecf4;
+    color: #39739d;
+    border-radius: 2px;
+    /* font-size: 14px; */
+
+/* Common Styles for both Light and Dark Themes */
+html {
+  font-size: 16px; /* Set a base font size for rem calculations */
+}
+
+.right-sidebar {
+  margin: 0;
+
+  /* float: right; */
+  width: 18.75rem; /* Converted 300px to rem */
+  font-size: 0.9375rem; /* Converted 15px to rem */
+}
+
+.Widget {
+  margin-top: 1.25rem; /* Converted 10px to rem */
+  box-shadow: 0 0 0.3125rem #ccc; /* Converted 5px to rem */
+}
+
+.Widget h4 {
+  background-color: #fbf3d5;
+  margin: 0;
+  padding: 1rem; /* Converted 15px to rem */
+  border: 0.0625rem solid #f1e5bc; /* Converted 1px to rem */
+  font-size: 0.875rem; /* Converted 14px to rem */
+}
+
+.right-sidebar-div-1 {
+  background-color: #fdf7e2;
+  padding: 1.875rem; /* Converted 15px to rem */
+  border: 0.0625rem solid #f1e5bc; /* Converted 1px to rem */
+}
+
+.right-sidebar-div-1 .right-sidebar-div-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.right-sidebar-div-1 .right-sidebar-div-2 p {
+  padding-left: 0.625rem; /* Converted 10px to rem */
+  margin-top: 0;
+  font-size: 0.8125rem; /* Converted 13px to rem */
+}
+
+.widget-tags {
+  margin-top: 1.25rem; /* Converted 40px to rem */
+  box-shadow: 0 0 0.3125rem #ccc; /* Converted 5px to rem */
+}
+
+.widget-tags h3 {
+  margin: 0;
+  padding: 1.875rem; /* Converted 15px to rem */
+  background-color: #f8f9f9;
+  border: 0.0625rem solid #e3e6e8; /* Converted 1px to rem */
+}
+
+.widget-tags-div {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 0.0625rem solid #e3e6e8; /* Converted 1px to rem */
+  padding: 0.625rem; /* Converted 10px to rem */
+}
+
+.widget-tags-div p {
+  padding: 0.3125rem; /* Converted 5px to rem */
+  background-color: #e1ecf4;
+  color: #39739d;
+  border-radius: 0.125rem; /* Converted 2px to rem */
+  font-size: 0.8125rem; /* Converted 13px to rem */
+}
+
+/* Light Theme Styles */
+.theme-switcher.light-theme .right-sidebar {
+  background-color: #ffffff;
+  color: #3a3a3a;
+}
+
+.theme-switcher.light-theme .Widget {
+  box-shadow: 0 0 0.3125rem #ccc;
+}
+
+.theme-switcher.light-theme .Widget h4 {
+  background-color: #fbf3d5;
+  border: 0.0625rem solid #f1e5bc;
+}
+
+.theme-switcher.light-theme .right-sidebar-div-1 {
+  background-color: #fdf7e2;
+  border: 0.0625rem solid #f1e5bc;
+}
+
+.theme-switcher.light-theme .widget-tags {
+  box-shadow: 0 0 0.3125rem #ccc;
+}
+
+.theme-switcher.light-theme .widget-tags h3 {
+  background-color: #f8f9f9;
+  border: 0.0625rem solid #e3e6e8;
+}
+
+.theme-switcher.light-theme .widget-tags-div {
+  border: 0.0625rem solid #e3e6e8;
+}
+
+.theme-switcher.light-theme .widget-tags-div p {
+  background-color: #e1ecf4;
+  color: #39739d;
+}
+
+/* Dark Theme Styles */
+.theme-switcher.dark-theme .right-sidebar {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.theme-switcher.dark-theme .Widget {
+  box-shadow: 0 0 0.3125rem #555555;
+}
+
+.theme-switcher.dark-theme .Widget h4 {
+  background-color: #333333;
+  border: 0.0625rem solid #555555;
+}
+
+.theme-switcher.dark-theme .right-sidebar-div-1 {
+  background-color: #222222;
+  border: 0.0625rem solid #444444;
+}
+
+.theme-switcher.dark-theme .widget-tags {
+  box-shadow: 0 0 0.3125rem #555555;
+}
+
+.theme-switcher.dark-theme .widget-tags h3 {
+  background-color: #333333;
+  border: 0.0625rem solid #555555;
+}
+
+.theme-switcher.dark-theme .widget-tags-div {
+  border: 0.0625rem solid #555555;
+}
+
+.theme-switcher.dark-theme .widget-tags-div p {
+  background-color: #555555;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .right-sidebar {
+    width: 21rem;
+    /* margin-left: 10px; */
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+  }
+  .widget-tags h3 {
+    padding: 0.8rem;
+  }
+  .right-sidebar-div-1 {
+    padding: 0.3rem;
+  }
+
+  .right-sidebar-div-1 .right-sidebar-div-2 {
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+}

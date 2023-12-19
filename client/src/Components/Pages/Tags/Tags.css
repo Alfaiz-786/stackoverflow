@@ -1,0 +1,134 @@
+/* .tags-h1 {
+    margin-top: 50px;
+    font-weight: 400;
+  }
+  
+  .tags-p {
+    margin: 0px;
+    font-size: 15px;
+  }
+  
+  .tags-list-container {
+    padding: 30px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .tag {
+    padding: 10px;
+    border: solid 1px #d2d2d2;
+    border-radius: 2px;
+  }
+  
+  .tag h5 {
+    display: inline-block;
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: #e1ecf4;
+    color: #39739d;
+  }
+  
+  .tag p {
+    font-size: 14px;
+    color: #323232;
+    line-height: 17px;
+  }
+   */
+
+/* Common Styles for both Light and Dark Themes */
+.home-container-tags-1 {
+  min-height: 100vh;
+  /* width: 10.25rem; */
+  display: flex;
+  justify-content: space-between;
+  border-right: darkblue;
+}
+.home-container-tags-2 {
+  width: calc(100% - 10.25rem); /* Converted 164px to rem */
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.tags-h1 {
+  margin-top: 60px;
+  font-weight: 400;
+}
+
+.tags-p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.tags-list-container {
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  /* color: #ffffff; */
+}
+
+.tag {
+  padding: 10px;
+  border: 1px solid #d2d2d2;
+  border-radius: 2px;
+}
+
+.tag h5 {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 5px;
+  background-color: #e1ecf4;
+  color: #39739d;
+}
+
+.tag p {
+  font-size: 14px;
+  color: #323232;
+  line-height: 17px;
+}
+
+/* Light Theme Styles */
+.theme-switcher.light-theme .tag {
+  border: 1px solid #d2d2d2;
+}
+
+.theme-switcher.light-theme .tag h5 {
+  background-color: #e1ecf4;
+  color: #39739d;
+}
+
+/* Dark Theme Styles */
+.theme-switcher.dark-theme .tag {
+  border: 1px solid #525252;
+  color: #ffffff;
+}
+
+.theme-switcher.dark-theme .tag h5 {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.theme-switcher.dark-theme .tag-des {
+  color: #ffffff;
+}
+.theme-switcher.dark-theme .home-container-tags-2 {
+  border: 0.0625rem solid #555555; /* Converted 1px to rem */
+}
+
+.theme-switcher.dark-theme .home-container-tags-1 {
+  background-color: #333333;
+  color: #ffffff;
+}
+@media only screen and (max-width: 600px) {
+  .tags-h1 {
+    margin-top: 70px;
+    font-weight: 400;
+  }
+  .home-container-tags-1 {
+    width: 29rem;
+  }
+  .home-container-tags-2 {
+    width: 21rem; /* Converted 164px to rem */
+  }
+}

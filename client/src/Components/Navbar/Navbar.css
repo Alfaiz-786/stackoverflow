@@ -1,0 +1,133 @@
+html {
+  font-size: 16px; /* Set a base font size for rem calculations */
+}
+
+.main-nav {
+  min-height: 3.125rem; /* Converted 50px to rem */
+  width: 100%;
+  margin: 0 auto;
+  border-top: 0.1875rem solid #ef8236; /* Converted 3px to rem */
+  box-shadow: 0 0.0625rem 0.3125rem #00000033; /* Converted 1px, 5px to rem */
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  background-color: #f8f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  height: 100%;
+  min-width: 100%;
+  max-width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  padding: 0.3125rem 0.9375rem; /* Converted 5px, 15px to rem */
+  border-radius: 1.25rem; /* Converted 20px to rem */
+  color: #ffffff;
+}
+
+.mobile-menu-btn {
+  cursor: pointer;
+  display: none;
+}
+
+.burger-icon {
+  font-size: 1.5rem;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 0.625rem; /* Converted 0px, 10px to rem */
+  font-size: 0.875rem; /* Converted small to rem */
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(69, 69, 69);
+  transition: 0.2s;
+  border-radius: 1.25rem; /* Converted 20px to rem */
+}
+
+.nav-btn {
+  cursor: pointer;
+  border-radius: 1.25rem; /* Converted 20px to rem */
+  padding: 0.625rem 0.9375rem; /* Converted 10px, 15px to rem */
+}
+
+.nav-item:hover {
+  background-color: rgb(185, 185, 185);
+}
+
+.navbar form {
+  flex-grow: 1;
+  padding: 0 0.75rem; /* Converted 0px, 12px to rem */
+  position: relative;
+}
+
+.navbar form input {
+  width: 85%;
+  margin: 0;
+  padding: 0.5rem 0.625rem 0.5rem 1.5625rem; /* Converted 8px, 10px, 8px, 25px to rem */
+  font-size: 0.8125rem; /* Converted 13px to rem */
+  border: 0.0625rem solid #000000e3; /* Converted 1px to rem */
+  border-radius: 0.1875rem; /* Converted 3px to rem */
+}
+
+.navbar form .search-icon {
+  position: absolute;
+  left: 0.9375rem; /* Converted 15px to rem */
+  top: 0.5rem; /* Converted 8px to rem */
+}
+
+.nav-links {
+  padding: 0.625rem 0.625rem; /* Converted 10px to rem */
+  border: 0.0625rem solid blue; /* Converted 1px to rem */
+  border-radius: 0.1875rem; /* Converted 3px to rem */
+  background-color: #009dff;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-links:hover {
+  background-color: #0086d8;
+}
+
+@media screen and (max-width: 768px) {
+  .main-nav {
+    min-height: 3.125rem; /* Converted 50px to rem */
+    width: 100%;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+    margin-left: 1rem;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 4rem; /* Converted 50px to rem */
+    left: 0;
+    right: 0;
+    background-color: #f8f9f9;
+
+    /* border-top: 0.1875rem solid #ef8236; Converted 3px to rem */
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+  .profile-picture {
+    margin-left: 2rem;
+  }
+}

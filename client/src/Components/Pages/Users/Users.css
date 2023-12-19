@@ -1,0 +1,82 @@
+/* .user-list-container {
+  padding: 60px 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 30px;
+}
+
+.user-profile-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: black;
+}
+
+.user-profile-link h3 {
+  padding: 10px 13px;
+  background-color: #d3d3d3;
+  border-radius: 50%;
+}
+
+.user-profile-link h5 {
+  margin: 0px 10px;
+} */
+.home-container-user-2 {
+  width: calc(100% - 10.25rem); /* Converted 164px to rem */
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.user-list-container {
+  padding: 80px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 30px;
+}
+
+.user-profile-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: black;
+}
+
+.user-profile-link h3 {
+  padding: 10px 13px;
+  background-color: #d3d3d3;
+  border-radius: 50%;
+}
+
+.user-profile-link h5 {
+  margin: 0 10px;
+}
+
+/* Light Theme Styles */
+.theme-switcher.light-theme .user-profile-link h3 {
+  background-color: #d3d3d3;
+  color: #000000;
+}
+
+.theme-switcher.light-theme .user-profile-link h5 {
+  color: #000000;
+}
+/* Dark Theme Styles */
+.theme-switcher.dark-theme .user-profile-link h3 {
+  background-color: #525252;
+  color: #ffffff;
+}
+
+.theme-switcher.dark-theme .user-profile-link h5 {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .user-list-container {
+    padding: 80px 0;
+  }
+  .home-container-user-2 {
+    width: 21rem; /* Converted 164px to rem */
+  }
+}
