@@ -8,7 +8,7 @@ const ThemeSwitcher = ({ children }) => {
   useEffect(() => {
     const fetchTime = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/getTime");
+        const response = await axios.get("https://stackoverflow-api-pi.vercel.app/api/getTime");
         const currentTime = response.data.currentTime;
         setIsNight(currentTime < 6 || currentTime >= 18);
       } catch (error) {
