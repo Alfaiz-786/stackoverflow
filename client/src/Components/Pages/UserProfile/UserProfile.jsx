@@ -22,7 +22,7 @@ const UserProfile = ({ slideIn, handleSlideIn }) => {
   return (
     <div className="home-container-1">
       <LeftSidebar slideIn={slideIn} handleSlideIn={handleSlideIn} />
-      <div className="home-container-2">
+      <div className="home-container-user-2">
         <section>
           <div className="user-details-container">
             <div className="user-details">
@@ -38,7 +38,7 @@ const UserProfile = ({ slideIn, handleSlideIn }) => {
               {/* Conditionally render the profile picture or avatar */}
               {currentProfile?.file ? (
                 <img
-                  src={`http://localhost:5000/uploads/${currentProfile.file}`}
+                  src={`https://stackoverflow-api-pi.vercel.app/uploads/${currentProfile.file}`}
                   // src={`https://stackoverflowclone-backend-nh9c.onrender.com/uploads/${currentProfile.file}`}
                   alt={currentProfile?.name}
                   className="profile-picture"

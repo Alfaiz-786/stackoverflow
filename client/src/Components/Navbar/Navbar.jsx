@@ -87,7 +87,7 @@ const Navbar = () => {
             >
               {User.result.file ? (
                 <img
-                  src={`http://localhost:5000/uploads/${User.result.file}`}
+                  src={`https://stackoverflow-api-pi.vercel.app/uploads/${User.result.file}`}
                   alt={User.result.name}
                   className="profile-picture"
                   style={{
