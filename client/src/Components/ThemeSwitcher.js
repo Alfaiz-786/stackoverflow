@@ -19,7 +19,7 @@ const ThemeSwitcher = ({ children }) => {
     fetchTime();
   }, []);
 
-  const theme = isNight ? "dark-theme" : "light-theme";
+  const theme = isNight ? "light-theme" : "dark-theme";
 
   return <div className={`theme-switcher ${theme}`}>{children}</div>;
 };
