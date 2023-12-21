@@ -9,7 +9,7 @@ const User = ({ user }) => {
       <Link to={`/Users/${user._id}`} className="user-profile-link">
         {user.file ? (
           <img
-            src={`http://localhost:5000/uploads/${user.file}`}
+            src={`https://stackoverflow-suun-api.vercel.app/uploads/${user.file}`}
             alt={user.name}
             className="profile-picture"
             style={{ borderRadius: "50%", width: "35px", height: "35px" }}
