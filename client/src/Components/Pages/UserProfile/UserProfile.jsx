@@ -38,7 +38,7 @@ const UserProfile = ({ slideIn, handleSlideIn }) => {
               {/* Conditionally render the profile picture or avatar */}
               {currentProfile?.file ? (
                 <img
-                  src={`https://stackoverflow-api-pi.vercel.app/uploads/${currentProfile.file}`}
+                  src={`http://localhost:5000/uploads/${currentProfile.file}`}
                   // src={`https://stackoverflowclone-backend-nh9c.onrender.com/uploads/${currentProfile.file}`}
                   alt={currentProfile?.name}
                   className="profile-picture"
