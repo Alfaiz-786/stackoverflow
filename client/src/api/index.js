@@ -36,4 +36,4 @@ export const deleteAnswer = (id, answerId, noOfAnswer) =>
 
 export const fetchAllUsers = () => API.get("/user/getAllUsers");
 export const updateProfile = (id, updateData) =>
-  API.patch(`/user/update/${id}`, updateData);
+  API.patch(`http://localhost:5000/user/update/${id}`, updateData);
